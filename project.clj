@@ -3,7 +3,8 @@
   :url "http://example.com/FIXME"
   :license {:name "MIT"
             :url "https://raw.githubusercontent.com/saidone75/cm2code/main/LICENSE"}
-  :dependencies [[org.clojure/clojure "1.11.1"]]
+  :dependencies [[org.clojure/clojure "1.11.1"]
+                 [org.clojure/data.xml "0.0.8"]]
   :main ^:skip-aot cm2code.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
